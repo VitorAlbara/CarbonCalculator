@@ -1,0 +1,27 @@
+.calculator{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type="number"], button{
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button {
+    display: block; /* Alterado para 'block' para garantir centralização */
+    margin-top: 20px; /* Adicionado espaço superior para separação */
+}
